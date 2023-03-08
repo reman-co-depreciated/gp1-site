@@ -1,19 +1,22 @@
+html {
+    scroll-behavior: smooth;
+  }
 :root {
     --main: black;
-    --light: rgb(100,100,100,1)
+    --medium: rgb(100,100,100,1);
+    --light: rgb(220,220,220,1);
   }  
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 20px 20px;
     display: flex;
     justify-content: center;
 }
-
 main {
-    border: 1px solid var(--light); 
+    border: 1px solid var(--medium); 
     flex: 1;
     max-width: 1024px;
+    min-height: 100vh;
 }
 
 h1 {
@@ -36,9 +39,9 @@ section {
 }
 
 hr {
-    margin: 0px 20px;
+    margin: 20px 20px;
     border: none;
-    border-top: 1px solid var(--light);
+    border-top: 1px solid var(--medium);
 }
 
 .logo_wrapper {
@@ -50,3 +53,33 @@ hr {
     flex: 1;
     max-width: 100%;
 }
+
+.product_wrapper {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px; 
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin: 10px 0px;
+}
+.product_wrapper:hover {
+    background-color: var(--light);
+}
+.product_desc {
+    flex: 2;
+    padding: 0px 10px;
+}
+.product_img_wrapper {
+    flex: 1;
+    max-width: 100px;
+}
+.product_img {
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .product_wrapper {
+      flex-direction: column;
+    }
+  }
