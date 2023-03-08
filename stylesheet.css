@@ -8,12 +8,13 @@ html {
   }  
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 20px 20px;
+    margin: 0px 20px;
     display: flex;
     justify-content: center;
 }
 main {
-    border: 1px solid var(--medium); 
+    border-right: 1px solid var(--medium); 
+    border-left: 1px solid var(--medium); 
     flex: 1;
     max-width: 1024px;
     min-height: 100vh;
@@ -80,6 +81,13 @@ hr {
 
 .copy_button {
     font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 400px) {
