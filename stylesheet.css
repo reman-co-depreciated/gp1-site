@@ -78,6 +78,10 @@ hr {
     width: 100%;
 }
 
+.copy_button {
+    font-size: 20px;
+}
+
 @media screen and (max-width: 400px) {
     .product_wrapper {
       flex-direction: column;
