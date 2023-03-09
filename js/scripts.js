@@ -1,5 +1,3 @@
-console.log('welcome to the Reman interim site!')
-
 function copyToClip(msg) {
     console.log('copy clip function called');
 
