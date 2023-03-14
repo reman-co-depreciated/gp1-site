@@ -90,6 +90,10 @@ hr {
     gap: 10px;
     justify-content: space-between;
 }
+.footer_link {
+    color: black;
+    font-weight: 600;
+}
 
 .header_wrapper {
     display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center;
