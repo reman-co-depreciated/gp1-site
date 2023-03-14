@@ -22,6 +22,7 @@ main {
 
 h1 {
     margin: 10px 0px;
+    font-size: 2rem;
 }
 h2 {
     margin: 10px 0px;
@@ -88,6 +89,13 @@ hr {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-between;
+}
+
+.header_wrapper {
+    display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center;
+}
+.header_products_link {
+    color: black; font-size: large; font-weight: 600;
 }
 
 @media screen and (max-width: 400px) {
