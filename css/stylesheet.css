@@ -3,7 +3,7 @@ html {
   }
 :root {
     --main: black;
-    --medium: rgb(150,150,150,1);
+    --medium: rgb(200,200,200,1);
     --light: rgb(220,220,220,1);
   }  
 body {
@@ -13,8 +13,8 @@ body {
     justify-content: center;
 }
 main {
-    border-right: 1px solid var(--medium); 
-    border-left: 1px solid var(--medium); 
+    border-right: 1px solid var(--main); 
+    border-left: 1px solid var(--main); 
     flex: 1;
     max-width: 1024px;
     min-height: 100vh;
@@ -43,7 +43,7 @@ section {
 hr {
     margin: 20px 20px;
     border: none;
-    border-top: 1px solid var(--medium);
+    border-top: 1px solid var(--main);
 }
 
 .logo_wrapper {
